@@ -3,6 +3,6 @@ pandas
 numpy
 librosa
 noisereduce
-streamlit
+streamlit >= 1.9.2
 libsndfile
 streamlib
