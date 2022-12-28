@@ -4,4 +4,4 @@ numpy
 librosa
 noisereduce
 streamlit
-os
+streamlit.components.v1
