@@ -5,3 +5,4 @@ librosa
 noisereduce
 streamlit
 libsndfile
+streamlib
