@@ -1,1 +1,1 @@
-libsndfile
+libsndfile1-dev
