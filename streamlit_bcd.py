@@ -151,7 +151,7 @@ def feature_extractor(audio_file, FRAME_SIZE, HOP_LENGTH):
 
 option = st.selectbox('How would you like to use this application?', ('Try out the default file', 'Upload your own audio file', 'Record your own audio'))
 if option == 'Try out the default file':
-    x = '/Users/mac/Desktop/Smart_Cradle/donateacry_corpus_cleaned_and_updated_data/tired/06c4cfa2-7fa6-4fda-91a1-ea186a4acc64-1430029246453-1.7-f-26-ti.wav'
+    x = 'https://drive.google.com/file/d/1qWGjeRqikBZSVtNHD1W2QU7aLyLgwUOh/view?usp=share_link'
     fe = feature_extractor(x, FRAME_SIZE, HOP_LENGTH)
     fe_more = extract_mfccs1_13(x, FRAME_SIZE, HOP_LENGTH)
     fe['MFCCs1'] = fe_more[0]
