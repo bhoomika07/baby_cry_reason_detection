@@ -3,4 +3,4 @@ pandas
 numpy
 librosa
 noisereduce
-streamlib
+streamlit
